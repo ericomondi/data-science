@@ -1,0 +1,43 @@
+	EXCEL FILE TWO
+	PART I
+1.	Correlation between number of courses and marks
+	A correlation coefficient of approximately 0.417 indicates 
+	a positive linear relationship between the number of courses 
+	and student marks. The positive sign of the correlation coefficient
+	 suggests that as the number of courses a student takes increases, 
+	their marks tend to increase as well. In other words, there is a tendency
+	for students who enroll in more courses to have higher marks.
+
+	The value of the correlation coefficient, 0.417, provides information
+ 	about the strength of the relationship. A value closer to 1 indicates a stronger 
+	positive relationship. In this case, 0.417 suggests a moderate or somewhat weak positive 
+	relationship. It's not a very strong correlation, but it's still a noteworthy relationship.
+
+
+2.	Correlation between time of study and marks
+
+	A correlation coefficient of approximately 0.942 suggests a very strong and positive
+	 linear relationship between the time of study and student marks. A correlation coefficient
+	 close to 1 (0.942) indicates a very strong positive relationship between the time of study 
+	and student marks. In this context, as the time of study increases, student marks tend to
+	 increase as well. This suggests that students who spend more time studying tend to achieve 
+	higher marks.
+
+	The high correlation coefficient of 0.942 specifically suggests a strong linear relationship. 
+	When you plot the data points on a scatterplot, they closely follow a linear trend. This means 
+	that as the time of study increases, student marks increase in a consistent and linear manner.
+
+
+
+	PART II
+
+	 Hint: the Regression Equation is  marks y(marks) = m1x1(time_study) + m2x2(number_of_courses)
+
+	m1(coefficient of time_study) = 5.399178787
+	m2(coefficient of number_of_courses) = 1.864050743
+	x1 = time_study
+	x2 = number_of_courses 
+
+	y = m1x1 + m2x2
+
+

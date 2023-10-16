@@ -1,0 +1,29 @@
+The manual process of building the regression equation if you want to understand the steps involved.
+ 	In this example, we'll use the two independent variables "time_study" (x1) and "number_of_courses" 
+	(x2) to predict "marks" (y). The regression equation takes the form:
+	y = b0 + b1 * x1 + b2 * x2
+Here's how you would manually build the regression equation:
+1.	Collect Data: Ensure you have a dataset with values for "marks," "time_study," and "number_of_courses."
+2.	Calculate the Mean of Variables: Calculate the mean of "marks" (mean_y), "time_study" (mean_x1), 
+	and "number_of_courses" (mean_x2).
+3.	Calculate the Coefficients (b1 and b2):
+	b1 (the coefficient for x1) is calculated as the covariance between "time_study" and "marks" divided
+	 by the variance of "time_study." In mathematical notation:
+	b1 = Cov(x1, y) / Var(x1)
+	b2 (the coefficient for x2) is calculated as the covariance between "number_of_courses"
+	 and "marks" divided by the variance of "number_of_courses." In mathematical notation:
+	b2 = Cov(x2, y) / Var(x2)
+4.	Calculate the Intercept (b0):
+	b0 (the intercept) is calculated as the mean of "marks" minus b1 times the mean of 
+	"time_study" minus b2 times the mean of "number_of_courses." In mathematical notation:
+	b0 = mean_y - b1 * mean_x1 - b2 * mean_x2
+5.	Construct the Regression Equation:
+	Using the values of b0, b1, and b2, construct the regression equation:
+	y = b0 + b1 * x1 + b2 * x2
+	These manual calculations provide you with the coefficients and intercept 
+	for the regression equation. However, for practical purposes, especially with
+	 larger datasets, it's recommended to use statistical software or tools that can 
+	perform the regression analysis and provide these coefficients automatically, along
+	 with additional statistical metrics to assess the quality of your model.
+
+
